@@ -14,8 +14,8 @@ This project is based on Mnist dataset, and the architecture used in this projec
 
 ## Table of Contents
 - <a href='#requirements'>Requirements</a>
-- <a href='#training-linear-regression'> Training RFC</a>
-- <a href='#performance'>Performance</a>
+- <a href='#Dataset and pre-processing'> Dataset and pre-processing</a>
+- <a href='#Architecture'>Architecture</a>
 - <a href='#references'>Reference</a>
 
 <br>
@@ -25,7 +25,7 @@ This project does not need any specific requirements. The dataset, Mnist, also i
 <br><br>
 
 
-### Dataset and pre-processing
+## Dataset and pre-processing
 
 Data augmentation is extremely important. For image data, it means we can artificially increase the number of images our model sees.This is achieved by Rotating the Image, Flipping the Image, Zooming the Image, Changing light conditions, Cropping it etc.
 <br>
@@ -67,18 +67,6 @@ model.add(Dense(10, activation='softmax'))
 ```
 
 
-<img src="./images/skewness.gif" alt="skewness.gif" width="100%" >
-
-- *The Histogram plot corresponding to each features.*
-**[Blue Plots: acceptable**
-**, Orange Plots: unacceptable]**
-
-<br>
-
-<img src="./images/skewness_reduction.gif" alt="skewness_reduction.gif" width="50%" >
-
-- *The Histogram plot corresponding to each features* ***after being transformed*** *to Normal Distribution.*
-
 
 
 <br><br>
@@ -94,8 +82,8 @@ The Second way to train and test RFC is to use the `.ipynb` file in the main dir
 
 The following list contains several links to every resource that helped us implement this project.
 
-1.  Kaggle dataset published by [UCI MACHINE LEARNING](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data)
-2.  The project which is developed by [BUDDHINI W](https://www.kaggle.com/code/buddhiniw/breast-cancer-prediction)
+1.  The article published by **Brendan Artley** [MNIST: Keras Simple CNN (99.6%)](https://medium.com/@BrendanArtley/mnist-keras-simple-cnn-99-6-731b624aee7f)
+2.  Pytorch website [QUICKSTART](https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html)
 3.  Maths-ML developed by [Farzad Yousefi ](https://github.com/F-Yousefi/Maths-ML)
 3.  House Price Prediction developed by [Farzad Yousefi ](https://github.com/F-Yousefi/House_Price_Prediction)
 4.  Machine Learning course published by [Coursera ](https://www.coursera.org/specializations/machine-learning-introduction)
