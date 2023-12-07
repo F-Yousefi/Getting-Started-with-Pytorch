@@ -8,7 +8,7 @@ In this notebook I will showcase a convoluted neural network model that achieves
 <br><br>
 
 ## Abstract
-This project is based on Mnist dataset, and the architecture used in this project can be find through the [link](https://medium.com/@BrendanArtley/mnist-keras-simple-cnn-99-6-731b624aee7f). Although this article was implemented this architecture on Keras, I re-write it in Pytorch lightning. Pytorch is considered as an academic tool in AI so it is so much better to learn Pytorch from skratch.
+This project is based on Mnist dataset, and the architecture used in this project can be find through the [link](https://medium.com/@BrendanArtley/mnist-keras-simple-cnn-99-6-731b624aee7f). Although the article was implemented mentioned architecture on Keras, I re-wrote it on Pytorch lightning. Pytorch is considered as an academic tool in AI so it is so much better to learn Pytorch from skratch.
 
 <br><br>
 
