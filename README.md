@@ -3,9 +3,7 @@ In this notebook I will showcase a convoluted neural network model that achieves
 
 <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*DQSLKyHw2eAkM385mG-29g.png" alt="header.png" width="1000" >
 
-<center><br>
-  MNIST Image from [Wikipedia](https://commons.wikimedia.org/wiki/File:MnistExamples.png)
-</center>
+**_ MNIST Image from [Wikipedia](https://commons.wikimedia.org/wiki/File:MnistExamples.png)_**
 
 <br><br>
 
