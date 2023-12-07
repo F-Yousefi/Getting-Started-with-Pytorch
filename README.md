@@ -32,7 +32,14 @@ Data augmentation is extremely important. For image data, it means we can artifi
 
 
 ## Architecture
-
+In order to build a strong Deep neural network, we should go through the following steps:
+1. Add Convolutional Layers — Building blocks of ConvNets and what do the heavy computation
+2. Add Pooling Layers — Steps along image — reduces params and decreases likelihood of overfitting
+3. Add Batch Normalization Layer — Scales down outliers, and forces NN to not relying too much on a Particular Weight
+4. Add Dropout Layer — Regularization Technique that randomly drops a percentage of neurons to avoid overfitting (usually 20% — 50%)
+5. Add Flatten Layer — Flattens the input as a 1D vector
+6. Add Output Layer — Units equals number of classes. Sigmoid for Binary Classification, Softmax in case of Multi-Class Classification.
+7. Add Dense Layer — Fully connected layer which performs a linear operation on the layer’s input
 
 
 
