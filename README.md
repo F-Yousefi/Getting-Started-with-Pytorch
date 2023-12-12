@@ -1,3 +1,4 @@
+<a href="https://www.nobelprize.org/prizes/peace/2023/mohammadi/facts/"> <img src="./images/banner.PNG" alt="banner.PNG" width="100%" ></a>
 # Getting-Started-with-Pytorch
 In this notebook I will showcase a convoluted neural network model that achieves 99.6% accuracy on the MNIST Handwritten Digit problem. This model is built using Pytorch Lightning. This package is great for beginners and experts alike as it offers simple yet powerful APIs.
 
